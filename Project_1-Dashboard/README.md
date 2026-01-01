@@ -1,6 +1,6 @@
 # Excel Salary Dashboard
 
-![1_Dashboard.png](/Images\1_Dashboard.png)
+![1_Dashboard.png](/Images/1_Dashboard.png)
 
 ## Introduction
 
@@ -29,7 +29,7 @@ The data is from [Public Job Posting Datasets](https://datanerd.tech) developed 
 
 #### 🗺️ Country Median Salaries - Map Chart
 
-![map_chart.png](/Images\map_chart.png)
+![map_chart.png](/Images/map_chart.png)
 
 - **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
 - **Design Choice:** A color-coded map visually differentiates salary levels across regions.
@@ -60,11 +60,11 @@ IF(
 
 Background Table
 
-![background_table_salary.png](/Images\background_table_salary.png)
+![background_table_salary.png](/Images/background_table_salary.png)
 
 Dashboard Implementation
 
-![Data_bars_1.png](/Images\Data_bars_1.png)
+![Data_bars_1.png](/Images/Data_bars_1.png)
 
 #### Count of Job Schedule Type
 
@@ -77,26 +77,29 @@ Dashboard Implementation
 
 Background Table
 
-![background_table_schedule_type.png](/Images\background_table_schedule_type.png)
+![background_table_schedule_type.png](/Images/background_table_schedule_type.png)
 
 Dashboard Implementation:
 
-![data_bars_2.png](/Images\data_bars_2.png)
+![data_bars_2.png](/Images/data_bars_2.png)
 
 ### Data Validation
 
 #### Filtered List
 
-- **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` option in the Data tab ensures:
+- **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` options in the Data tab ensures:
     - User input is limited to predefined and validated schedule types.
     - Incorrect or inconsistent entries are prevented
     - Overall usability of the dashboard is enhanced
 
-![slicers.png](/Images\slicers.png)
+![slicers.png](/Images/slicers.png)
 
-![job_filtering.png](/Images\job_filtering.png)
+![job_filtering.png](/Images/job_filtering.png)
 
-![country_filtering.png](/Images\country_filtering.png)
+![country_filtering.png](/Images/country_filtering.png)
 
-![job_schedule_filtering.png](/Images\job_schedule_filtering.png)
+![job_schedule_filtering.png](/Images/job_schedule_filtering.png)
+
+# Conclusion
+This dashboard was developed to highlight salary trends across a range of data-related job roles. Using data from the job posting dataset, it enables users to make informed career decisions by exploring how job type and location impact compensation.
 
