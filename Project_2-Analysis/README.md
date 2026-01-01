@@ -41,11 +41,11 @@ b. Transform: Each query was transformed by adjusting column data types, removin
 c. Load: loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
 - data_jobs_all
 
-![power_query_q1_salary.png](/Images\power_query_q1_salary.png)
+![power_query_q1_salary.png](/Images/power_query_q1_salary.png)
 
 - data_job_skills
 
-![power_query_q1_skills.png](/Images\power_query_q1_skills.png)
+![power_query_q1_skills.png](/Images/power_query_q1_skills.png)
 
 ### Analysis
 
@@ -54,7 +54,7 @@ c. Load: loaded both transformed queries into the workbook, setting the foundati
 - Job postings that require more skills tend to offer higher median salaries, particularly for Senior Data Engineer and Data Scientist roles.
 - Roles that require fewer skills, such as Business Analyst and Data Analyst, generally offer lower salaries, indicating that more specialized skill sets have higher market value.
 
-    ![q1_plot.png](/Images\q1_plot.png)
+    ![q1_plot.png](/Images/q1_plot.png)
 
 
 - This trend highlights the importance of acquiring multiple relevant skills, especially for those pursuing higher-paying roles.
@@ -95,7 +95,7 @@ c. Load: loaded both transformed queries into the workbook, setting the foundati
 - Salary differences between US and non-US roles are most evident in high-tech positions, reflecting the strong concentration of tech industries in the US.
 - Roles such as Senior Data Engineer and Data Scientist earn higher median salaries both in the US and globally, reflecting strong worldwide demand for advanced data expertise.
 
-    ![q2_pivottable.png](/Images\q2_pivottable.png)
+    ![q2_pivottable.png](/Images/q2_pivottable.png)
 
 - These insights support career planning and salary negotiations by aligning compensation expectations with market standards across regions.
 
@@ -108,13 +108,13 @@ c. Load: loaded both transformed queries into the workbook, setting the foundati
 - Created a data model by integrating the `data_jobs_all` and `data_jobs_skills` tables into one model.
 - Power Pivot created a relationship between these two tables via `job_id` column.
 
-    ![q3_power_pivot_diagram.png](/Images\q3_power_pivot_diagram.png)
+    ![q3_power_pivot_diagram.png](/Images/q3_power_pivot_diagram.png)
 
 #### Power Pivot Menu
 
 - The Power Pivot menu was utilized to refine the data model and simplify the creation of measures.
 
-    ![q3_power_pivot_table.png](/Images\q3_power_pivot_table.png)
+    ![q3_power_pivot_table.png](/Images/q3_power_pivot_table.png)
 
 ### Analysis
 
@@ -123,7 +123,7 @@ c. Load: loaded both transformed queries into the workbook, setting the foundati
 - SQL, Excel, and Python dominate as top skills in data analyst jobs, reflecting their foundational role in data processing and analysis.
 - Visualization tools like Tableu and Power BI also needed by Data Analyst jobs to support decision-making and for easy readibility.
 
-    ![q3_plot.png](/Images\q3_plot.png)
+    ![q3_plot.png](/Images/q3_plot.png)
 
 - Understanding the most in-demand skills in the industry helps professionals remain competitive while also guiding training and educational programs to focus on the most impactful technologies.
 
@@ -144,7 +144,7 @@ c. Load: loaded both transformed queries into the workbook, setting the foundati
 - Skiils like SQL, Excel, and Python having higher demand, indicating their critical roles in data analyst.
 - PowerPoint and Word rank among the lowest-paying skills, reflecting their lower specialization and demand in higher-salary roles.
 
-    ![q4_plot.png](/Images\q4_plot.png)
+    ![q4_plot.png](/Images/q4_plot.png)
 
 
 - The chart underscores the importance of developing high-value skills like SQL and Python to access higher-paying roles in the data analyst jobs.
